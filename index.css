@@ -1,0 +1,72 @@
+body{
+    display: grid;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+                         "nav  main"
+                         "footer footer";
+    background-color: rgb(255, 255, 255);                     
+                        
+}
+
+header{
+    grid-area: header;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.LibreBarcode{
+    font-family: 'Libre Barcode 39', cursive;
+}
+header h1{
+    display: inline;
+    font-size: 2.5em;
+    letter-spacing: 7px;
+}
+nav{
+    grid-area: nav;
+    padding: 5px;
+    text-decoration: none;
+    opacity: 0.2;
+    transition: opacity 1.2s ease-in;
+}
+nav:hover{
+    display: block;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+}
+nav li{
+    padding: 5px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    opacity: 1;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.m_homepage{
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
