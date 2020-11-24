@@ -1,0 +1,66 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+                         "nav main"
+                         "footer footer";
+}
+
+
+header{
+    grid-area: header;
+    display: inline;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(255,255,255);
+}
+.LibreBarcode5{
+    font-family: 'Libre Barcode 39', cursive;
+}
+header h1{
+    display: inline;
+    font-size: 2.5em;
+    letter-spacing: 7px;
+}
+
+
+nav{
+    grid-area: nav;
+    opacity: 0.2;
+    background-color: rgb(255,255,255);
+    padding: 5px;
+    transition: opacity 1.2s ease-in;
+}
+nav:hover{
+    display: block;
+    font-size: larger;
+    opacity: 1;
+    background-color: rgb(255,255,255);
+}
+nav ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    font-size: x-large;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    text-align: center;
+}
