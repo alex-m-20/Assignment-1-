@@ -1,0 +1,111 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"
+                          "nav main"
+                          "footer footer";
+    display: grid;                      
+}
+
+header{
+    grid-area: header;
+    font-family: 'Shadows Into Light', cursive; 
+    background-color: rbg(255, 255, 255);
+    padding: 10px;
+}
+.LibreBarcode2{
+    font-family: 'Libre Barcode 39', cursive;
+}
+header h1{
+    display: inline;
+    font-size: 2.5em;
+    letter-spacing: 7px;
+}
+
+nav{
+    grid-area: nav;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+    transition: opacity 1.2s ease-in;
+}
+nav:hover{
+    display: block;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+}
+nav li{
+    list-style-type: none;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px;
+}
+nav a:hover{
+    font-size: x-large;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+div.pholder1{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+}
+div.pholder2{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+
+}
+div.pholder3{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+
+}
+div.pholder4{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+    
+}
+div.pholder5{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+}
+div.pholder6{
+    background-color: rgb(230, 230, 230);
+    width: 33.33%;
+    display: inline;
+    float: left;
+    height: 580px;
+}
+
+footer{
+    grid-area: footer;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
