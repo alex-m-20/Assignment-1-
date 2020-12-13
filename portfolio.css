@@ -7,7 +7,8 @@ body{
     grid-template-areas: "header header"
                           "nav main"
                           "footer footer";
-    display: grid;                      
+    display: grid;   
+    text-align: left;                   
 }
 
 header{
@@ -42,6 +43,7 @@ nav li{
     list-style-type: none;
     padding: 5px;
 }
+
 nav a{
     text-decoration: none;
     padding: 5px;
@@ -50,13 +52,20 @@ nav a:hover{
     font-size: x-large;
 }
 
+
 main{
     grid-area: main;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     padding: 10px;
-    text-align: center;
 }
 
+.Bold{
+    font-size: xx-large;
+}
+
+div ul li{
+    list-style-type: none;
+}
 div.pholder1{
     background-color: rgb(230, 230, 230);
     width: 33.33%;
@@ -64,13 +73,20 @@ div.pholder1{
     float: left;
     height: 580px;
 }
+.pholder1:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+}
 div.pholder2{
     background-color: rgb(230, 230, 230);
     width: 33.33%;
     display: inline;
     float: left;
     height: 580px;
-
+}
+.pholder2:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
 }
 div.pholder3{
     background-color: rgb(230, 230, 230);
@@ -78,7 +94,10 @@ div.pholder3{
     display: inline;
     float: left;
     height: 580px;
-
+}
+.pholder3:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
 }
 div.pholder4{
     background-color: rgb(230, 230, 230);
@@ -86,7 +105,10 @@ div.pholder4{
     display: inline;
     float: left;
     height: 580px;
-    
+}
+.pholder4:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
 }
 div.pholder5{
     background-color: rgb(230, 230, 230);
@@ -95,12 +117,20 @@ div.pholder5{
     float: left;
     height: 580px;
 }
+.pholder5:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+}
 div.pholder6{
     background-color: rgb(230, 230, 230);
     width: 33.33%;
     display: inline;
     float: left;
     height: 580px;
+}
+.pholder6:hover{
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
 }
 
 footer{
