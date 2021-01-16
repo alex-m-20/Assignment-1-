@@ -11,6 +11,7 @@ body{
                         
 }
 
+
 header{
     grid-area: header;
     font-family: 'Shadows Into Light', cursive;
@@ -52,14 +53,17 @@ a:hover{
     opacity: 1;
 }
 
+
 main{
     grid-area: main;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    font-size: xx-large;
 }
 .m_homepage{
     padding: 5px;
     background-color: rgb(230, 230, 230);
+    height: 1160px;
 
 }
 
