@@ -1,14 +1,16 @@
 body{
     display: grid;
-    color: rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
     grid-template-columns: 25% 75%;
     grid-template-rows: auto;
-    grid-template-areas: "header header" 
-                         "nav main"
-                          "footer footer";
+    grid-template-areas: "header header"
+                        "nav nav"
+                         "main  main"
+                         "footer footer";
+    background-color: rgb(255, 255, 255);                     
+                        
 }
-
 header{
     grid-area: header;
     background-color: rgb(255,255,255);
@@ -62,18 +64,16 @@ p{
     font-size: large;
 }
 input[type=text]{
-    width: 250px;
+    width: 150px;
     padding: 10px;
 }
 #email_address{
-    width: 720px;
+    width: 520px;
     padding: 10px;
 }
 #comment_section{
-    width: 720px;
+    width: 520px;
     height: 100px;
-    padding: 10px;
-
 }
 
 

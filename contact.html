@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact(mobile).css" media="screen and (max-width: 1000px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Raleway:wght@300&family=Shadows+Into+Light&display=swap"
       rel="stylesheet"> 
@@ -16,7 +17,6 @@
         <h1 class="Librebarcode3"> A M R</h1>
         <h1> A M R</h1>
     </header>
-
     <nav>
         <ul>
             <li>
@@ -39,8 +39,31 @@
 
     <main>
         <div class="contactdetails">
+            <h2>Contact Details</h2>
+
+            <p>
+                For any inquiries or feedback, please fill in the form below;
+            </p>
+
+            <form action="mailto:munyirukwaro7@gmail.com?subject=Contact Form" method="POST">
+
+                <label for="first_name">First name:</label>
+                <input type="text" id="first_name">
+                <label for="second_name"> Second name:</label>
+                <input type="text" id="second_name"><br><br><br>
+
+                <label for="email_address"> Email Address: </label> <br><br>
+                 <input type="text" id="email_address"> <br><br><br>
+
+                 <label for="comment_section"> Comment: </label> <br><br>
+                 <textarea name="comment_section" id="comment_section"></textarea> <br><br><br>
+
+                <input type="Submit" value="Submit" name="Submit">
+            </form>  <br><br><br>
 
         </div>
+        <div class="placeholder1"></div>
+        <div class="placeholder2"></div>
     </main>
 
      <footer>
