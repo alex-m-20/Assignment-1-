@@ -71,3 +71,14 @@ footer{
     height: 280px;
     padding: 15px;
 }
+
+.reportdemo{
+    border-style: solid;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
